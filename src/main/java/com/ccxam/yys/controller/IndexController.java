@@ -7,16 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/yys/online")
+@RequestMapping("/yys")
 public class IndexController {
-    @GetMapping("/test")
+    @GetMapping("/info")
     public String getInfo(){
-
 
         return "Hello Yys";
     }
-
-
-
-
 }
